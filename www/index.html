@@ -1,43 +1,37 @@
 <!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <title>CUP</title>
 
-    http://www.apache.org/licenses/LICENSE-2.0
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <label class="label label-danger" style="font-size: 30px;margin-left: 25px;margin-top: 20px;display: -webkit-inline-box;">World CUP 2014</label>
+    <div class="table-responsive" style="margin-top: 20px;">
+	  <table class="table">
+	  	<thead>
+	  		<tr class="success" style="font-weight: 900;"><td>Team A</td><td>Team B</td><td>Time</td><td>Vote</td></tr>
+	  	</thead>
 
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="format-detection" content="telephone=no" />
-        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
-        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
-        <title>Hello World</title>
-    </head>
-    <body>
-        <div class="app">
-            <h1>PhoneGap</h1>
-            <div id="deviceready" class="blink">
-                <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
-            </div>
-        </div>
-        <script type="text/javascript" src="phonegap.js"></script>
-        <script type="text/javascript" src="js/index.js"></script>
-        <script type="text/javascript">
-            app.initialize();
-        </script>
-    </body>
+		<tr class="active"><td>Arsenal</td><td>Chelsea</td><td>15/7</td><td><Button class="btn btn-primary">Vote</Button></td></tr>
+		<tr class="danger"><td>Cardiff City</td><td>Aston Villa</td><td>17/7</td><td><Button class="btn btn-primary">Vote</Button></td></tr>
+		<tr class="warning"><td>Crystal Palace</td><td>Chelsea</td><td>17/7</td><td><Button class="btn btn-primary">Vote</Button></td></tr>
+		<tr class="danger"><td>Everton</td><td>Aston Villa</td><td>18/7</td><td><Button class="btn btn-primary">Vote</Button></td></tr>
+		<tr class="info"><td>Arsenal</td><td>Fulham</td><td>19/7</td><td><Button class="btn btn-primary">Vote</Button></td></tr>
+	  </table>
+	</div>
+    
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="phonegap.js"></script>
+  </body>
 </html>
+
